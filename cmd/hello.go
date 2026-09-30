@@ -27,7 +27,7 @@ to quickly create a Cobra application.`,
 }
 
 func HelloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, World!")
+	fmt.Fprintln(w, "Hello, "+name+"!")
 }
 func hello(cmd *cobra.Command, args []string) {
 
