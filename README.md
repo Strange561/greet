@@ -15,7 +15,6 @@ go install github.com/Strange561/greet@latest
 ```bash
 greet --help          # 查看所有命令
 greet hello           # 启动一个监听 :8080 的 HTTP 服务，访问 /hello 返回问候
-greet admin -t <token> # 管理命令（需要 token）
 ```
 
 ## 本地开发
